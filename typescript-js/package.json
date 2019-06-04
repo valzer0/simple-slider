@@ -1,0 +1,27 @@
+{
+  "name": "typescript-js",
+  "version": "1.0.0",
+  "description": "typescript + webpack の環境設定を構築します。 シンプルな設計となっています。",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "test": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valzer0/typescript-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valzer0/typescript-js/issues"
+  },
+  "homepage": "https://github.com/valzer0/typescript-js#readme",
+  "devDependencies": {
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
